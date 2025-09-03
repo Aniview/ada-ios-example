@@ -28,11 +28,12 @@ class ViewController: UIViewController {
         view.addSubview(adView)
 
         // Example layout constraints
+        let maximumPlacementHeight: CGFloat = 480
         NSLayoutConstraint.activate([
             adView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             adView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             adView.widthAnchor.constraint(equalTo: view.widthAnchor),
-            adView.heightAnchor.constraint(equalToConstant: 250) // actually it can change. See "adView.sizeDelegate"
+            adView.heightAnchor.constraint(equalToConstant: maximumPlacementHeight) // actually it can change. See "adView.sizeDelegate"
         ])
     }
 }

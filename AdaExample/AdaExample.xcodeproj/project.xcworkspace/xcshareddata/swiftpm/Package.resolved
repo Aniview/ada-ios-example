@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Aniview/ada-sdk-ios-spm",
       "state" : {
-        "revision" : "0acd5e5b500cb9e0dcf0336f569b80c996b69f3a",
-        "version" : "0.0.6"
+        "revision" : "ddbe8b21595479747944908c9e22b6d51b818cd8",
+        "version" : "0.0.7"
       }
     },
     {
