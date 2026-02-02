@@ -21,7 +21,10 @@ final class PreloadExampleVC: UIViewController {
     }
     
     private lazy var adView: AdaView = {
-        let view = AdaView(config: config)
+        let view = AdaView(
+            config: config,
+            preferredAdSize: CGSize(width: 320, height: 250)
+        )
         view.delegate = self
         return view
     }()

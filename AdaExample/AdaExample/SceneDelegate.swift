@@ -20,8 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let window = UIWindow(windowScene: windowScene)
         let config = AdaConfig(
-            pubId: "565c56d3181f46bd608b459a",
-            tagId: "68b00e4a7c1583367d03f437"
+            pubId: "687cd4217bcba04b0304a514",
+            tagId: "68b8003e39658705dc0e968e"
         )
         window.backgroundColor = .systemBackground
         window.rootViewController = BasicVC(config: config)
